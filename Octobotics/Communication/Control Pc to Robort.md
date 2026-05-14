@@ -1,10 +1,9 @@
-@Sanjeev and Tanmay
-@receave 
+### Tanmay -> Sanjeev 
 1. Connect 
 	req struct {
 	string ip
 	string port
-		string deviceType
+	string deviceType
 	}
 	res bool status
 2. Disconnect 
@@ -14,7 +13,8 @@
 	string **deviceType**
 	} 
 	res bool status
-3. Load setting    req json/struct Config{
+3. Load setting    
+    req json/struct Config{
      
      }
      req bool Status
@@ -22,7 +22,7 @@
 	   req bool setAcquisitionStatus
 	   res bool currentAcquisitionStatus 
 
-@Send
+### Sanjeev -> Tanmay
 1. Ascan 
    stream of Ascan 
    struct ascanData {
